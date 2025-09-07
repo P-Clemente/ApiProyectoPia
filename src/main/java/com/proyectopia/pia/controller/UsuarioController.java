@@ -8,6 +8,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 @RestController
+@CrossOrigin(origins = "http://localhost:5173/")
 @RequestMapping("/api/usuarios")
 public class UsuarioController {
     private final UsuarioService usuarioService;
