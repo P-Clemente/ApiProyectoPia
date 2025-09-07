@@ -6,6 +6,7 @@ import com.proyectopia.pia.model.*;
 import com.proyectopia.pia.service.GrupoService;
 
 @RestController
+@CrossOrigin(origins = "http://localhost:5173/")
 @RequestMapping("/api/tareas/grupos")
 public class GrupoController {
 
